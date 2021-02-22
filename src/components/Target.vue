@@ -4,7 +4,7 @@
     <img :src="value.image" class="w-20 h-20"/>
     <span class="uppercase text-2xl font-bold">{{value.name}}</span>
     <span>{{value.description}}</span>
-    <a :href="value.link" target="_balnk" class="border border-black bg-black text-white rounded-full py-2 px-10 ">{{value.boton}}</a>
+    <a :href="value.link" class="border border-black bg-black text-white rounded-full py-2 px-10" target="_blank">{{value.boton}}</a>
   </div>
 </template>
 

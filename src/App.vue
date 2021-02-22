@@ -1,7 +1,7 @@
 <!--Mi proyecto 2021-->
 <template>   
-    <div class="flex flex-row justify-center items-center text-center bg-white dark:bg-gray-900">
-       <div class="grid lg:grid-cols-3 gap-8 pt-20 pb-20 md:grid-cols-2">
+    <div class="flex flex-row justify-center items-center text-center dark:bg-gray-900">
+       <div class="grid lg:grid-cols-3 gap-8 py-20 md:grid-cols-2">
             <Target v-for="(l,k) of list" :key="k" :value="l" />
        </div>
     </div>
